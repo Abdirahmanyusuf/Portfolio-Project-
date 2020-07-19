@@ -1,0 +1,12 @@
+firs step you install mysql on your computer 
+second step create database (myprojectdb)
+after that you done create database 
+
+-Run this commands 
+-Python Manage.py makemigrations
+-python manage.py migrate 
+
+
+after successfull 
+
+run python 

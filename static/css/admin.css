@@ -1,0 +1,21 @@
+#header {
+    height: 40px;
+    background: #17a2b8;
+    color: #fff;
+
+}
+#header h1 {
+    color: #fff;
+}
+div.breadcrumbs {
+    background:crimson;
+    color:#fff;
+}
+div.breadcrumbs a {
+    color: #fff;
+}
+.module h2, .module caption, .inline-group h2 {
+    background: #17a2b8;
+    font-size: 1rem;
+    font-family: monospace;
+}

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<!-- middle section -->
+
+<div class="container">
+
+    <!-- portifolio -->
+    {% for portfolio  in portifolio %}
+    <h2>{{portfolio.portfolio_title}} </h2>
+    <p>{{portfolio.portfolio_Desc}}</p>
+    {% endfor %}
+    <section class="portifolio">
+        {% for portfolio  in portifolio %}
+        <div class="box1">
+
+            <img src="{{portfolio.portfolio_img.url}}">
+            <p>{{portfolio.company_name}}</p>
+        </div>
+        {% endfor %}
+    </section>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock  %}
